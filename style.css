@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(41, 41, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+i{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.counter-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    
+}
+span{
+    color: rgb(180, 180, 169);
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.counter{
+    color:rgb(188, 188, 24);
+    font-size: 110px;
+    font-family:serif;
+}
